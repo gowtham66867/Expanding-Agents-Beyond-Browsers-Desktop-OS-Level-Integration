@@ -1,0 +1,25 @@
+[project]
+name = "s14b"
+version = "0.2.0"
+description = "Seraphine Agentic Pipeline - macOS Version"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "python-dotenv>=1.0.0",
+    "google-genai>=1.16.1",
+    "mss>=10.0.0",
+    "networkx>=3.5",
+    "numpy>=2.2.6",
+    "onnx>=1.18.0",
+    "onnxruntime>=1.22.0",
+    "opencv-python-headless>=4.11.0.86",
+    "pillow>=11.2.1",
+    "psutil>=7.0.0",
+    "requests>=2.32.3",
+    "rich>=14.0.0",
+    "wget>=3.2",
+    "pyobjc>=10.0",
+    "pyobjc-framework-Quartz>=10.0",
+    "pyobjc-framework-ApplicationServices>=10.0",
+    "pyobjc-framework-Cocoa>=10.0",
+]
